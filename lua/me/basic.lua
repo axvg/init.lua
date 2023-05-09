@@ -23,3 +23,5 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80"
 vim.opt.guicursor = ""
+
+vim.g.netrw_banner = 0
