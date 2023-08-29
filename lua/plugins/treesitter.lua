@@ -25,5 +25,8 @@ return {
                 'css', 'lua', 'xml', 'php', 'markdown'
             },
         },
+        indent = {
+            enable = true,
+        }
 	}
 }
