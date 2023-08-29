@@ -4,3 +4,5 @@ vim.api.nvim_set_keymap('n', '<leader>j', '*``cgn', { noremap = true, silent = t
 vim.api.nvim_set_keymap('n', '<F2>', '<cmd>lua vim.lsp.buf.rename()<cr>', { noremap = true, silent = true }) -- rename symbols
 
 vim.api.nvim_set_keymap('n', '<leader>h', ':browse oldfiles<CR>', { noremap = true, silent = true })
+
+vim.g.user_emmet_leader_key=','
